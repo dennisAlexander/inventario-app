@@ -1,7 +1,7 @@
 'use strict';
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-
+                                  // this shit is connecting the shema to mongo atlas
 
 //schema goes here
 
