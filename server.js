@@ -5,6 +5,8 @@ const app = express();
 
 app.use(express.static(__dirname + '/public/'));
 
+// put some directions that you want to use to make the server .. referencia 
+
 import CreateTodo from "./components/create-todo.component";
 import EditTodo from "./components/edit-todo.component";
 import TodosList from "./components/todos-list.component";
