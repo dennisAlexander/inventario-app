@@ -1,4 +1,4 @@
-//api supposedly
+//api supposedly   ,, probably stays in app.js and crud ops go beneath it
 
 const express = require('express');
 const app = express();
