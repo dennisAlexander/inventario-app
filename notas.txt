@@ -1,0 +1,20 @@
+public folder =  in charge of sending whatever file to the frontend
+
+app folder =   react code is put here,  of the interface, library,  which will
+               be transformed into standard code and passed to the public folder
+
+--- the browser does not understand react
+
+src =
+
+routes folder=
+
+models folder =  in these files schemas are defined
+
+database.js =   permits you connect to database
+
+-- index.js = database is used in this file
+
+
+
+

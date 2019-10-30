@@ -15,8 +15,8 @@ const PORT = process.env.PORT || 4000;
 
 // Database & Models                           *** REPLACE THIS 
 require('./database/mongoClient.js');
-const Product = require('./models/products');
-const Part = require('./models/parts');
+const Product = require('./src/models/products');
+const Part = require('./src/models/parts');
 
 //possible replacement
 
