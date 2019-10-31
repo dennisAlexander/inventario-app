@@ -3,6 +3,7 @@
 
 const express = require('express');
 const morgan = require('morgan');
+const path = require('express');
 const app = express(); 
 // codigo del servidor  below
 
@@ -16,9 +17,11 @@ app.use(express.json());    // when data passes the server, check for json, and 
 // routes                     urls the server uses, tareas , connects with task.routes
 
 app.use('/api/tasks', require('./routes/task.routes'));
-
+app.use(app.router);      // codigo extra para que express funcion, pero no
+routes.initialize(app);
 // Static files                to tell express where the statfiles are
 
+app.use(express.static())
 
 //Starting the server
                                              // obtaining the value **

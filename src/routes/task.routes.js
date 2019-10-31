@@ -7,4 +7,4 @@ router.get('/', (req,res) => {    // when a request happens at root endpoint res
     res.json({
         status: 'API Works!'
     });
-})
+});
